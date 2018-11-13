@@ -21,6 +21,8 @@ Add a screenshot of the application architecture.
 ## JavaFX
 Discuss the design used. Discuss why you chose this design and any features you thing make your application stands out. 
 
+![alt text](Resources/javaFX.gif "My App")
+
 ## Running the Application
 Provide instructions on how to run you applicaiton. Are there any prerequisite softwares required? 
 
