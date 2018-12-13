@@ -3,6 +3,8 @@
 **Title:** Items Application  
 **Name:** Sean Murphy  
 **Student ID:** G0012345  
+**GitHub URL:** https://github.com/DanielCreggOrganization/final-project-SeanMurphy
+
 
 ## Application Function
 Discuss in detail what the application does. Confirm you have met all basic requirments:
