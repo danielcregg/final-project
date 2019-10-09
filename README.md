@@ -1,4 +1,4 @@
-# Final-Project
+# Final Project
 
 **Title:** Items Application  
 **Name:** Sean Murphy  
