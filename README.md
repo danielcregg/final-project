@@ -21,11 +21,15 @@ List the instructions step by step
 
 Confirm and demonstrate how you have met all minimum project requirments:
 
-* The code must compile.
+* The project, including code and documentaion, will be fully contained in the provied Git Classroom repo.
+* The project must contain a working JavaFX GUI which manages items of your choice.
+* The GUI must at minimum provide access to all 7 methods implemented in the Student Manager App.
+    * Methods = Load DB, Add Item, Delete Item, Find item by ID/Name, Show total items, Save to DB, Quit.
+* The code MUST compile. 30% grade reduction if code does not compile.
 * The application code must be formatted in a consistent and standard way.
-* The code must contain comments. One line per Class, method and variable at minimum.
-* There must be one commit per week.
-* The documentation and commentary must be free typographical and grammatical errors.
+* The code must contain comments. One comment per class, method and variable at minimum.
+* There must be one commit per week minimum (Note: Should be many commits per day coding).
+* The documentation and commentary must be free of grammar and spelling mistakes.
 
 ## Project Requirments above and beyond
 
