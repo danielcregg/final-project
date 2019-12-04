@@ -2,26 +2,36 @@
  *  Compilation:  javac HelloWorld.java
  *  Execution:    java HelloWorld
  *
- *  Prints "Hello, World". By tradition, this is everyone's first program.
- *
- *  % java HelloWorld
- *  Hello, World
- *
- *  These 17 lines of text are comments. They are not part of the program;
- *  they serve to remind us about its properties. The first two lines tell
- *  us what to type to compile and test the program. The next line describes
- *  the purpose of the program. The next few lines give a sample execution
- *  of the program and the resulting output. We will always include such
- *  lines in our programs and encourage you to do the same.
+ *  Prints "Hello, World" to console when "Say Hello World" button is pressed.
  *
  ******************************************************************************/
 package ie.gmit.mypackage;
 
-public class HelloWorld {
+import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
 
-	public static void main(String[] args) {
-		// Prints "Hello, World" on the console.
-		System.out.println("Hello, World");
-	}
+public class HelloWorld extends Application {
+    public static void main(String[] args) {
+        launch(args);
+    }
 
+    @Override
+    public void start(Stage primaryStage) {
+        primaryStage.setTitle("Hello World!");
+        Button btn = new Button();
+        btn.setText("Say 'Hello World'");
+        btn.setOnAction(e -> {
+            System.out.println("Hello World!");
+        });
+
+        StackPane root = new StackPane();
+        root.getChildren().add(btn);
+        primaryStage.setScene(new Scene(root, 300, 250));
+        primaryStage.show();
+    }
 }
