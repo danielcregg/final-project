@@ -85,7 +85,7 @@ local.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar - commenting out to let students upload jar
 *.war
 *.nar
 *.ear
