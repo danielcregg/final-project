@@ -7,6 +7,7 @@ if ! cmp /tmp/.gitpod.Dockerfile $GITPOD_REPO_ROOT/.gitpod.Dockerfile || ! cmp /
     git add .gitpod
     git commit -m "updated gitpod configs"
     git push
+    echo "Your Gitpod configs have been updated."
 else
     echo "Your Gitpod configs are up to date."
 fi
