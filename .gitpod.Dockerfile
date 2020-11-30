@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full-vnc
 
-USER gitpod
+USER root
 
 RUN apt-get update \
     && apt-get install -y openjfx libopenjfx-java matchbox \
