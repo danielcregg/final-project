@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac HelloWorld.java
- *  Execution:    java HelloWorld
+ *  Compilation:  javac Main.java
+ *  Execution:    java Main
  *
  *  Prints "Hello, World" to console when "Say Hello World" button is pressed.
  *
@@ -13,10 +13,7 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-public class HelloWorld extends Application {
-    public static void main(String[] args) {
-        launch(args);
-    }
+public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) {
@@ -32,4 +29,9 @@ public class HelloWorld extends Application {
         primaryStage.setScene(new Scene(root, 300, 250));
         primaryStage.show();
     }
+    
+    public static void main(String[] args) {
+        launch(args);
+    }
+
 }
